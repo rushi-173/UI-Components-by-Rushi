@@ -48,7 +48,36 @@ hr{
 	list-style: none;
 }
 
-.list-item-inline{
+.list-inline li{
 	display: inline;
 	padding: 0.5rem 1rem;
+}
+
+/**navbar**/
+
+.navigation{
+	background-color: var(--primary-color);
+	padding: 1rem 0.5rem;
+	color: white;
+	border-bottom-left-radius: 2rem; 
+	border-bottom-right-radius: 2rem; 
+}
+
+.navigation .nav-logo{
+	font-size: large;
+	font-weight: 600;
+	margin: 0rem 2rem;
+}
+
+.navigation .nav-items{
+	text-align: right;
+	margin: 0rem 2rem;
+}
+
+.navigation .link{
+	color: white;
+}
+
+.navigation .link-active{
+	font-weight: 600;
 }
