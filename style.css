@@ -3,7 +3,7 @@
 :root{
 	--primary-color:#00B0FF;
 	--secondary-color:#D500F9;
-	--dark-grey:#212121;
+	--dark-grey:#424242;
 	--light-grey:#EEEEEE;
 }
 
@@ -60,11 +60,10 @@ hr{
 	padding: 1rem 0.5rem;
 	color: white;
 	border-bottom-left-radius: 2rem; 
-	border-bottom-right-radius: 2rem; 
 }
 
 .navigation .nav-logo{
-	font-size: large;
+	font-size: x-large;
 	font-weight: 600;
 	margin: 0rem 2rem;
 }
@@ -80,4 +79,34 @@ hr{
 
 .navigation .link-active{
 	font-weight: 600;
+}
+
+/**header**/
+.header{
+	padding: 2rem;
+}
+.hero-img{
+	display: block;
+	max-width: 350px;
+	margin: auto;
+}
+.header-title{
+	font-weight: 600;
+	color: var(--dark-grey);
+	text-align: center;
+}
+.hero-name{
+	color: var(--primary-color);
+	display: inline;
+}
+
+/**section**/
+.section{
+	padding: 2rem;
+}
+.section h4{
+	text-align: center;
+}
+.off-white{
+	background-color: var(--light-grey);
 }
